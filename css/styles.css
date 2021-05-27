@@ -4,6 +4,22 @@
 @import url("status-bar.css");
 
 body {
-  background: tomato; /* font-family: sans-serif; */
+  /* font-family: sans-serif; */
   font-family: "Open Sans", sans-serif;
+}
+
+.welcome-header {
+  margin: 90px 0px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.welcome-header__title {
+  margin-bottom: 20px;
+  font-size: 25px;
+}
+.welcome-header__text {
+  width: 65%;
+  opacity: 0.5;
 }

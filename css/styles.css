@@ -1,17 +1,23 @@
+/* Font */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 /*common */
 @import "common/reset.css";
 @import "common/variables.css";
 /* components */
 @import "components/status-bar.css";
+@import "components/nav-bar.css";
 /* screens */
 @import "screens/login.css";
 
 body {
-  /* font-family: sans-serif; */
   font-family: "Open Sans", sans-serif;
+  height: 1000vh;
 }
 
 input:focus {
   outline: none;
+}
+
+a {
+  color: inherit;
 }

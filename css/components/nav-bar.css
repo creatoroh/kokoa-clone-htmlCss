@@ -1,0 +1,55 @@
+.nav {
+  background-color: #f9f9fa;
+  padding: 20px 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 0;
+  box-sizing: border-box; /*박스사이즈 */
+  width: 100%;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  color: #2e363e;
+  /* color :  */
+}
+.status-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  /* box-sizing:  border-box; */
+}
+.nav__btn:nth-child(2) .nav__link {
+  position: relative;
+}
+.nav__notification {
+  background-color: tomato;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: 600;
+  position: absolute;
+  /* absolute는 가장 가까운 relative를 가진 부모 기준으로 움직임. 
+  부모에 relative를 주지 않으면, body를 기준으로 absolute가 적용이 됨*/
+  left: 17px;
+  bottom: 17px;
+}
+.nav__btn:nth-child(4) .nav__link {
+  position: relative;
+}
+.nav__dot {
+  background-color: tomato;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+
+  position: absolute;
+  left: 35px;
+  bottom: 35px;
+}

@@ -1,6 +1,6 @@
 .screen-header {
   display: flex;
-  padding: 45px 25px;
+  padding: 85px 25px;
   justify-content: space-between;
 }
 .screen-header__title {

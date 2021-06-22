@@ -25,18 +25,9 @@
   position: relative;
 }
 .nav__notification {
-  background-color: tomato;
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  font-weight: 600;
-  position: absolute;
   /* absolute는 가장 가까운 relative를 가진 부모 기준으로 움직임. 
   부모에 relative를 주지 않으면, body를 기준으로 absolute가 적용이 됨*/
+  position: absolute;
   left: 17px;
   bottom: 17px;
 }

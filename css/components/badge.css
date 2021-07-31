@@ -9,3 +9,18 @@
   color: white;
   font-weight: 600;
 }
+.badge-dot-parent {
+  position: relative;
+}
+.badge-dot {
+  background-color: tomato;
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+
+  position: absolute;
+  /* right: -8px;
+  bottom: 23px; */
+  bottom: 17px;
+  left: 25px;
+}

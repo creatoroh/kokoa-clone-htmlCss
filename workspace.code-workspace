@@ -1,11 +1,8 @@
 {
   "folders": [
-    {
-      "path": "."
-    },
-    {
-      "path": "../kokoa-clone"
-    }
-  ],
+	{
+		"path": "."
+	}
+],
   "settings": {}
 }
